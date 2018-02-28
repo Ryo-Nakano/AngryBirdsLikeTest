@@ -14,7 +14,6 @@ public class Velocity : MonoBehaviour {
 	float distance;//2点間の距離
 	float distanceMin = 50;//飛ばす最小値
 
-
 	// Use this for initialization
 	void Start () {
 		r = this.gameObject.GetComponent<Rigidbody> ();
@@ -23,7 +22,7 @@ public class Velocity : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Test ();//引っ張った距離に応じてballを飛ばす
+			Test ();//引っ張った距離に応じてballを飛ばす	
 	}
 
 
